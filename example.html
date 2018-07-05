@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="example.css">
+    <title>Charter.js Preview</title>
+</head>
+<body>
+    <header>
+        <img src="banner.png" draggable="false">
+    </header>
+    <!--
+        Charter manipulates already existing canvas elements on a page, it does not create new ones.
+        Therefore a canvas needs to be created for each graph to be displayed when delivering the page.
+    -->
+    <main>
+        <!--
+            Unlike the Circle Chart, the Row Chart has to be in a container as its width is defined by the container.
+        -->
+        <div class="rowChartCont">
+            <canvas id="rowChart1"></canvas>
+        </div>
+        <br>
+        <div class="circleChartCont">
+            <canvas id="circleChart1"></canvas>
+            <canvas id="circleChart2"></canvas>
+            <canvas id="circleChart3"></canvas>
+        </div>
+    </main>
+    <footer>
+        <!--
+            Time ran out. Sooooo...
+        -->
+        <h3>Work in progress!</h3>
+    </footer>
+
+    <script src="charter.js"></script>
+    <script src="example.js"></script>
+</body>
+</html>
