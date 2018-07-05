@@ -31,7 +31,9 @@ const USERVOTES_DATASET = {
 
 	"I hate it": ["Emil Berg (eberg@email.se)"],
 
-	"I hate it a lot": []
+	"I hate it a lot": [],
+
+	"I don't care at all": []
 };
 
 // When creating a graph with Charter, you are creating a new object and passing in a number of arguments.
